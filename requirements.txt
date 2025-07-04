@@ -1,10 +1,9 @@
 streamlit
 numpy
-opencv-python
+opencv-python-headless
 tensorflow-cpu==2.13.0
 Pillow
 matplotlib
 lime
 scikit-image
 huggingface_hub
-
