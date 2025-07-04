@@ -8,6 +8,10 @@ from preprocessing.preprocess import preprocess_image
 from preprocessing.explanation_text import explanation_text
 from utils.gradcam import generate_gradcam
 from utils.lime_explainer import explain_with_lime
+from keras_cv_attention_models.coatnet import CoAtNet0
+
+# Import to ensure custom layers are registered
+_ = CoAtNet0
 
 # Load model from Hugging Face
 with st.spinner("🔄 Downloading model from Hugging Face..."):
