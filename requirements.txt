@@ -1,7 +1,8 @@
+keras-cv-attention-models
+tensorflow-cpu==2.13.0
 streamlit
 numpy
 opencv-python-headless
-tensorflow-cpu==2.13.0
 Pillow
 matplotlib
 lime
